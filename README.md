@@ -1,6 +1,7 @@
 <!---
 {
-  "depends_on": ["https://github.com/STEMgraph/718193ef-11a1-408d-af23-4b10c24d490d"],
+  "id": "e3a451cf-dccf-474b-97d2-17505e309ba0",
+  "depends_on": ["718193ef-11a1-408d-af23-4b10c24d490d"],
   "author": "Stephan Bökelmann",
   "first_used": "2025-04-01",
   "keywords": ["assembly", "GAS", "syscall", "write", "stdout", "Linux"]
