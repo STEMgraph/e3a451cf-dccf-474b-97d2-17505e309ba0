@@ -1,6 +1,7 @@
 <!---
 {
   "id": "e3a451cf-dccf-474b-97d2-17505e309ba0",
+  "teaches": "Writing to the Terminal with GAS",
   "depends_on": ["718193ef-11a1-408d-af23-4b10c24d490d"],
   "author": "Stephan Bökelmann",
   "first_used": "2025-04-01",
