@@ -65,7 +65,7 @@ Without using a high-level programming-language.
 ## 2) Tasks
 
 1. **Change the Message**: Modify the string to print your name instead of `"Hello, world!"`.
-2. **Add Two Lines**: Print two lines by using a second `write` syscall or by adding `10` (newline) at the right place in your data.
+2. **Add Two Lines**: Print two lines by using a second `write` syscall or by adding `.byte 10` (newline) as a second memory-block in your data.
 3. **Omit Newline**: Remove the newline and see how the output appears.
 4. **Write to stderr**: Use file descriptor `2` instead of `1`. Observe the behavior.
 
