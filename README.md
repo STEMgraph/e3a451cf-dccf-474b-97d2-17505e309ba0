@@ -71,10 +71,16 @@ Without using a high-level programming-language.
 
 ## 3) Questions
 
-1. What does the value `10` at the end of the message represent?
-2. Why must the length of the message be provided manually in `rdx`?
-3. What happens if the length is incorrect (too short, too long)?
-4. Is it possible to write non-ASCII binary data using `write`?
+1. Explain the following codeblock:
+   ```
+   .section .data
+   message:
+      .byte  'H','e','l','l','o',',',' ','w','o','r','l','d','!', 10
+   len = . - message
+   ```
+3. Why must the length of the message be provided manually in `rdx`?
+4. What happens if the length is incorrect (too short, too long)?
+5. Is it possible to write non-ASCII binary data using `write`?
 
 <details>
   <summary>Syscall Reference</summary>
